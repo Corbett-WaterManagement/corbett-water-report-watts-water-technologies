@@ -1,40 +1,19 @@
-# Corbett Water Report Template
+# Watts Water Technologies — Corbett Water Report
 
-Master template repository for Corbett Management Reports client-facing water report websites.
+Quarterly irrigation usage and weather conditions for **Watts Water Technologies, North Andover, MA**.
 
-Approved production template version: **v1.1.0**.
+Current report: **Q3 2026 — FINAL**.
 
-Production template approval was granted on October 13, 2026.
+[View the report](https://corbett-watermanagement.github.io/corbett-water-report-watts-water-technologies/)
 
-## Branding and disclosures
+## Website template
 
-This revision uses Corbett maroon and black for property identity and general report headings. Water-use charts, metrics and controls retain the Smart Water Management palette. Existing logo assets are preserved.
+Shared template: **v1.1.0**. [Template release](https://github.com/Corbett-WaterManagement/corbett-water-report-template/releases/tag/v1.1.0). Source commit: `115acd9e363f21aa29d4a44a759a25600d3bdc48`.
 
-The footer contains three responsive disclosure cards:
+Corbett maroon and black identify the property and general report headings. Smart Water Management colors remain on water metrics, charts and controls. Three disclosure cards explain monthly summaries, weather-station differences and system conditions.
 
-- **Monthly summaries:** This report summarizes monthly irrigation usage and weather conditions. Rainfall timing and distribution can affect irrigation demand in ways monthly totals do not show.
-- **Weather reference:** Weather conditions at your site may differ slightly from those recorded at the local weather station used in this analysis.
-- **System conditions:** Reported irrigation usage may be affected by controller operation, system conditions, and meter or sensor performance. Contact your account manager with questions about your irrigation system.
+## Reporting and publication
 
-This revision changes presentation and explanatory text. Reporting calculations, JSON schemas, TEST/FINAL behavior and supported features remain the same as v1.0.0.
+Approved identity and current-period metadata are in `data/index.json`; approved Q3 figures are in `data/quarters/2026-q3.json`. One permanent account repository and GitHub Pages URL are preserved across reporting periods. A human applies approved changes, followed by deployment verification. Quarterly data updates and shared-template changes follow separate controlled workflows.
 
-## Purpose
-
-This repository is the reusable blueprint for standalone account report websites. It contains shared HTML, CSS, JavaScript, branding assets and generic sample data.
-
-The master demonstration intentionally retains generic TEST identity and reporting data. Template approval is separate from each account's numerical validation, QA and publication approval.
-
-## Account websites and updates
-
-Each management account uses one permanent, independent GitHub repository and GitHub Pages URL. Changing this master does not automatically update existing account websites.
-
-Shared updates require an approved template revision, an account-specific replacement package that protects identity and reporting JSON, applicable QA, a human GitHub upload, and verification afterward. Quarterly data updates remain separate from shared-template changes.
-
-## Public repository boundary
-
-This master must contain only generic sample data. Do not upload client reporting data, workbooks, registry files, internal instructions, QA records, local previews, server helpers, backups or credentials.
-
-## Release history
-
-- **v1.0.0:** Original production release approved on October 12, 2026; baseline commit `b15b4819e9bda3e3071d4684ac7231392c756899`. Preserve its existing tag and release history.
-- **v1.1.0:** Corbett identity colors and three footer disclosure cards. Release verification is recorded separately after publication.
+This repository contains only customer-facing website files. Internal workbooks, registry, notes, QA, previews, backups and credentials are excluded.
